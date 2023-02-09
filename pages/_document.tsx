@@ -8,7 +8,7 @@ export default function Document() {
         <Html lang="en">
             <Head>
                 <title>{config.name}</title>
-                <link rel="icon" href="/logo.svg" />
+                <link rel="icon" href={`/GAPC-2023/logo.svg`} />
             </Head>
             <body>
                 <Navbar />
