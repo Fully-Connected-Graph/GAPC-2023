@@ -1,8 +1,8 @@
 import { FC, ReactElement } from 'react';
-import PrepDate from '@/components/utils/PrepDate';
 import { twMerge } from 'tailwind-merge';
-import Link from 'next/link';
-import PrepLink from '../utils/PrepLink';
+import PrepDate from '@/components/utils/PrepDate';
+import PrepLink from '@/components/utils/PrepLink';
+import A from '@/components/A';
 
 interface MarkdownTitleProps {
     frontmatter: {
@@ -46,10 +46,10 @@ const MarkdownTitle: FC<MarkdownTitleProps> = ({
 
             <p className="mb-2 text-white opacity-75 font-light">
                 {frontmatter.links?.map((link) => (
-                    <Link href={(link === "Home") ? "/" : PrepLink(link)}>
+                    <A href={(link === "Home") ? "/" : PrepLink(link)}>
                         {link}
                         {' '}
-                    </Link>
+                    </A>
                 ))}
             </p>
 

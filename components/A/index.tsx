@@ -10,7 +10,8 @@ interface AProps {
 
 const A: FC<AProps> = ({ href, target, children, className }) => {
     return (
-        <Link href={href} passHref legacyBehavior>
+        // TODO FIX THIS
+        <Link href={"GAPC-2023/" + href} passHref legacyBehavior>
             <a target={target} className={className}>
                 {children}
             </a>
