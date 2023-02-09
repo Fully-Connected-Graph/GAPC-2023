@@ -1,22 +1,14 @@
 const config = {
-    name: 'Mansur Nurmukhambetov',
-    nickname: 'nomomon',
-    siteUrl: 'https://nomomon.github.io',
-    contact: 'https://github.com/nomomon',
+    name: 'Fully Connected Graph',
+    nickname: 'Fully Connected Graph',
+    siteUrl: 'https://fully-connected-graph.github.io/gapc-2023',
+    contact: 'https://github.com/fully-connected-graph',
     srcDir: '_obsidian',
     links: [
         {
             name: 'GitHub',
-            url: 'https://github.com/nomomon',
-        },
-        {
-            name: 'LinkedIn',
-            url: 'https://linkedin.com/in/nomomon',
-        },
-        {
-            name: 'Telegram',
-            url: 'https://t.me/nomomon',
-        },
+            url: 'https://github.com/fully-connected-graph',
+        }
     ],
 };
 

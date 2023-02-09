@@ -1,6 +1,8 @@
 import { FC, ReactElement } from 'react';
 import PrepDate from '@/components/utils/PrepDate';
 import { twMerge } from 'tailwind-merge';
+import Link from 'next/link';
+import PrepLink from '../utils/PrepLink';
 
 interface MarkdownTitleProps {
     frontmatter: {
@@ -8,6 +10,7 @@ interface MarkdownTitleProps {
         description?: string;
         date?: Date;
         banner?: string;
+        links: string[];
     };
 }
 
@@ -22,7 +25,7 @@ const MarkdownTitle: FC<MarkdownTitleProps> = ({
     } else {
         styleClasses = twMerge(
             styleClasses,
-            'bg-gradient-to-r from-yellow-500 to-green-500'
+            'bg-gradient-to-r from-blue-500 to-blue-300'
         );
     }
     let style =
@@ -37,8 +40,17 @@ const MarkdownTitle: FC<MarkdownTitleProps> = ({
                 {frontmatter.title}
             </h1>
 
-            <p className="mb-4 text-white opacity-75 font-light">
+            <p className="mb-2 text-white opacity-75 font-light">
                 {frontmatter.description}
+            </p>
+
+            <p className="mb-2 text-white opacity-75 font-light">
+                {frontmatter.links?.map((link, i) => (
+                    <Link href={(link === "Home") ? "/" : PrepLink(link)}>
+                        {link}
+                        {i !== frontmatter.links.length - 1 && ' | '}
+                    </Link>
+                ))}
             </p>
 
             {date && (
