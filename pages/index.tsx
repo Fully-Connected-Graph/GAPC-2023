@@ -14,7 +14,10 @@ const Index: FC<IndexProps> = ({ file, fileName }): ReactElement => {
 };
 
 export function getStaticProps() {
-    const path = join(config.srcDir, 'Groningen Algorithm Programming Contest.md');
+    const path = join(
+        config.srcDir,
+        'Groningen Algorithm Programming Contest.md'
+    );
     const file = readFileSync(path, 'utf8');
     const fileName = 'Groningen Algorithm Programming Contest';
 

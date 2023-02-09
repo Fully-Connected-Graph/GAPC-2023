@@ -19,7 +19,8 @@ const MarkdownTitle: FC<MarkdownTitleProps> = ({
 }): ReactElement => {
     const date = PrepDate(frontmatter.date);
 
-    let styleClasses = 'w-full h-64 py-20 flex flex-col items-center';
+    let styleClasses =
+        'w-full min-h-64 py-20 flex flex-col items-center text-center';
     if (frontmatter.banner) {
         styleClasses = twMerge(styleClasses, `bg-center bg-cover bg-no-repeat`);
     } else {
@@ -45,10 +46,12 @@ const MarkdownTitle: FC<MarkdownTitleProps> = ({
             </p>
 
             <p className="mb-2 text-white opacity-75 font-light">
-                {frontmatter.links?.map((link) => (
-                    <A href={(link === "Home") ? "/" : PrepLink(link)}>
+                {frontmatter.links?.map((link, i) => (
+                    <A href={link === 'Home' ? '/' : PrepLink(link)}>
                         {link}
-                        {' '}
+                        {frontmatter.links &&
+                            i !== frontmatter.links.length - 1 &&
+                            ' | '}
                     </A>
                 ))}
             </p>

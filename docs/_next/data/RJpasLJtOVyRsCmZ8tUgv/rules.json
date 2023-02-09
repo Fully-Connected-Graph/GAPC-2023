@@ -1,0 +1,7 @@
+{
+    "pageProps": {
+        "fileName": "Rules",
+        "file": "---\nlinks:\n    - Home\n    - Schedule\n    - Location\n    - Rules\n    - System\n    - Contact\n---\n\n"
+    },
+    "__N_SSG": true
+}

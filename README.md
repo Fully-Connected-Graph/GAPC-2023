@@ -2,4 +2,4 @@ This is a Next.js project bootstrapped with create-next-app and inspired by the 
 
 TODO:
 
-- [ ] Configure export
+-   [ ] Configure export

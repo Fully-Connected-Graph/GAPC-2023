@@ -4,6 +4,6 @@ const nextConfig = {
     swcMinify: true,
     trailingSlash: true,
     basePath: '/GAPC-2023',
-}
+};
 
 module.exports = nextConfig;
