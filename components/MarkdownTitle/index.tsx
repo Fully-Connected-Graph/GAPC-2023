@@ -10,7 +10,7 @@ interface MarkdownTitleProps {
         description?: string;
         date?: Date;
         banner?: string;
-        links: string[];
+        links?: string[];
     };
 }
 
@@ -45,10 +45,10 @@ const MarkdownTitle: FC<MarkdownTitleProps> = ({
             </p>
 
             <p className="mb-2 text-white opacity-75 font-light">
-                {frontmatter.links?.map((link, i) => (
+                {frontmatter.links?.map((link) => (
                     <Link href={(link === "Home") ? "/" : PrepLink(link)}>
                         {link}
-                        {i !== frontmatter.links.length - 1 && ' | '}
+                        {' '}
                     </Link>
                 ))}
             </p>
