@@ -6,11 +6,10 @@
         "dev": "next dev",
         "build": "next build",
         "postbuild": "next-sitemap",
-        "export": "next export",
+        "export": "next build && next export -o docs/",
         "start": "next start",
         "lint": "next lint",
-        "format": "prettier --write .",
-        "make": "npm run build && npm run export"
+        "format": "prettier --write ."
     },
     "dependencies": {
         "@next/font": "13.1.6",

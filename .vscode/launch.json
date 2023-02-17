@@ -1,13 +1,13 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "lldb",
-      "request": "launch",
-      "args": [],
-      "cwd": "/Users/mansurnurmukhambetov/Desktop/Projects/GAPC-2023/out",
-      "program": "/Users/mansurnurmukhambetov/Desktop/Projects/GAPC-2023/out/build/Debug/outDebug"
-    }
-  ]
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C/C++ Runner: Debug Session",
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "/Users/mansurnurmukhambetov/Desktop/Projects/GAPC-2023/out",
+            "program": "/Users/mansurnurmukhambetov/Desktop/Projects/GAPC-2023/out/build/Debug/outDebug"
+        }
+    ]
 }
