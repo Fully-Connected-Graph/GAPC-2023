@@ -2,6 +2,6 @@
 
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-    siteUrl: 'https://fully-connected-graph.github.io/GAPC-2023', // config.siteUrl,
+    siteUrl: 'https://fully-connected-graph.github.io/GAPC-2023',
     generateRobotsTxt: false,
 };
