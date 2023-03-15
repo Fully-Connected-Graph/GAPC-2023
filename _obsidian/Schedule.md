@@ -1,12 +1,5 @@
 ---
-links:
-    - Home
-    - Schedule
-    - Location
-    - Rules
-    - System
-    - Contact
-banner: /GAPC-2023/covers/clock.png
+banner: /GAPC-2023/covers/lecture.png
 ---
 
 ## Contest schedule

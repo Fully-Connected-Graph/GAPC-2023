@@ -7,7 +7,7 @@ export default function Document() {
     return (
         <Html lang="en">
             <Head>
-                <link rel="icon" href={`${config.basePath}/logo.svg`} />
+                <link rel="icon" href={`${config.basePath}/logo.png`} />
             </Head>
             <body>
                 <Navbar />

@@ -1,5 +1,6 @@
 const config = {
     name: 'Groningen Algorithmic Programming Contest 2023',
+    shortname: 'GAPC 2023',
     nickname: 'Fully Connected Graph',
     basePath: '/GAPC-2023/',
     contact: 'https://github.com/fully-connected-graph',
