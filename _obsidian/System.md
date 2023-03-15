@@ -6,6 +6,7 @@ links:
     - Rules
     - System
     - Contact
+banner: /GAPC-2023/covers/lecture.png
 ---
 
 ## Contest control system

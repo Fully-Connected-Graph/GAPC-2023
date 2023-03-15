@@ -6,11 +6,12 @@ links:
     - Rules
     - System
     - Contact
+banner: /GAPC-2023/covers/clock.png
 ---
 
-Hiiiiii
-
 ## Contest schedule
+
+The event will take place on the Saturday 29th of April.
 
 All time is relative to Groningen, Netherlands (GMT+1)
 

@@ -37,7 +37,7 @@ const MarkdownTitle: FC<MarkdownTitleProps> = ({
 
     return (
         <div className={styleClasses} style={style}>
-            <h1 className="text-white text-6xl drop-shadow-md">
+            <h1 className="text-white text-6xl" style={{ textShadow: "0 .05em .05em #555" }}>
                 {frontmatter.title}
             </h1>
 
