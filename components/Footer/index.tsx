@@ -5,7 +5,7 @@ import CompanyLogo from '../CompanyLogo';
 
 const Footer = (): ReactElement => {
     return (
-        <footer className="w-full flex flex-col items-center justify-center my-8">
+        <footer className="w-full flex flex-col items-center justify-center mt-8">
             <div className="w-full max-w-2xl p-4 sm:p-0">
                 <h1 className="text-2xl font-light text-gray-800">
                     Sponsors
@@ -41,7 +41,7 @@ const Footer = (): ReactElement => {
                 </div>
             </div>
 
-            <div className='p-5'>
+            <div className='w-full p-5 bg-gray-100 flex flex-col items-center justify-center'>
                 <p className="text-gray-500">
                     Made with ❤️ by
                     <A
