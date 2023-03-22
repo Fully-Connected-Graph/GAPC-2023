@@ -59,4 +59,4 @@ In the present, our main focus is on events about competitive programming and ma
 
 If you have any questions, please send us an email at programming_committee@svcover.nl
 
-Or join our [FCG Discord](https://discord.com/invite/JfzxyBHPsH). Or join the [FCG announcements WhatAapp group](https://chat.whatsapp.com/JynZLRD7yUr9f5OsQ1rzkb) to be up to date about our events.
+Or join our [FCG Discord](https://discord.com/invite/JfzxyBHPsH). Or join the [FCG announcements WhatsApp group](https://chat.whatsapp.com/JynZLRD7yUr9f5OsQ1rzkb) to be up to date about our events.
