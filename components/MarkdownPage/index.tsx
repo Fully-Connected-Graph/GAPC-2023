@@ -1,3 +1,4 @@
+import config from '@/configuration';
 import Head from 'next/head';
 import { FC, ReactElement } from 'react';
 import MarkdownRender from '../MarkdownRender';
@@ -21,7 +22,7 @@ const MarkdownPage: FC<MarkdownPageProps> = ({
     return (
         <>
             <Head>
-                <title>{frontmatter.title}</title>
+                <title>{`${config.shortname} | ${frontmatter.title}`}</title>
             </Head>
             <div className="w-full overflow-y-auto">
                 <MarkdownTitle frontmatter={frontmatter} />

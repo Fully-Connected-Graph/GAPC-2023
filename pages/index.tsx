@@ -16,10 +16,10 @@ const Index: FC<IndexProps> = ({ file, fileName }): ReactElement => {
 export function getStaticProps() {
     const path = join(
         config.srcDir,
-        'GAPC 2023.md'
+        'About.md'
     );
     const file = readFileSync(path, 'utf8');
-    const fileName = 'GAPC 2023';
+    const fileName = 'About';
 
     return {
         props: {
