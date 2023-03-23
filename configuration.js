@@ -16,6 +16,11 @@ const config = {
             href: 'https://researchable.nl/',
             src: 'sponsors/researchable.png',
             alt: 'Researchable logo'
+        },
+        {
+            href: 'https://www.asml.com/en',
+            src: 'sponsors/asml.png',
+            alt: 'ASML logo'
         }
     ],
     partners: [
