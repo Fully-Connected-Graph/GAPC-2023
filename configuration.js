@@ -3,6 +3,7 @@ const config = {
     shortname: 'GAPC 2023',
     nickname: 'Fully Connected Graph',
     basePath: '/GAPC-2023/',
+    tracking_id: "G-68QG15FVMH",
     contact: 'https://github.com/fully-connected-graph',
     srcDir: '_obsidian',
     sponsors: [
