@@ -6,7 +6,7 @@ banner: /GAPC-2023/covers/lecture.png
 
 The event will take place on the Saturday 29th of April.
 
-All time is relative to Groningen, Netherlands (GMT+1)
+All time is relative to Groningen, Netherlands (GMT+2) 
 
 | Start | End   | Event                                    |
 | ----- | ----- | ---------------------------------------- |

@@ -6,12 +6,14 @@ const config = {
     tracking_id: "G-68QG15FVMH",
     contact: 'https://github.com/fully-connected-graph',
     srcDir: '_obsidian',
-    sponsors: [
+    GoldSponsors: [
         {
             href: 'https://klippa.com/',
             src: 'sponsors/klippa.png',
             alt: 'Klippa logo'
-        },
+        } 
+    ],
+    SilverSponsors: [
         {
             href: 'https://researchable.nl/',
             src: 'sponsors/researchable.png',
