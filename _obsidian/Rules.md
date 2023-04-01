@@ -6,8 +6,8 @@ banner: /GAPC-2023/covers/rules.png
 
 ### Definitions
 
-* GAPC: The Groningen Algorithm Programming Contest 2023. Organised by Fully Connected Graph
-* Organisation: The members of the organising committee.
+* GAPC: The Groningen Algorithm Programming Contest 2023
+* Organisation: The event is organised by the members of Fully Connected Graph, the programming committee of the study association Cover
 * Website: The website is maintained by the organisation and available at https://fully-connected-graph.github.io/GAPC-2023/
 * Discord: The GAPC discord mentioned <a href="https://discord.com/invite/JfzxyBHPsH" target="_blank">FCG Discord</a>.
 * Jury: The group responsible for creating the problem set and checking the solutions submitted by the participants.
@@ -28,8 +28,9 @@ For any questions related to the contest, please contact the organiser either by
 
 ### Teams
 
-This is an open contest, where anybody can participate. It is not an eligibility criterion if the team is composed of people within the academic environment of the University of Groningen or not. All the teams:
+This is an open contest to all students from a university within the Benelux region. Regarding registration, the teams formed with students from the University of Groningen or Hanze University of Applied Sciences are considered local teams. Teams that have in composition at least one member who is not a student at the before mentioned universities, will be regarded as external teams. There is a limit of 15 external teams.  
 
+All the teams:
 * Participate for free.
 * Participate in the teams' pool for the title “Winner of the Groningen Algorithm Programming Contest 2023”.
 

@@ -25,16 +25,18 @@ const config = {
             alt: 'ASML logo'
         }
     ],
+    organisers: [
+        {
+            href: 'https://svcover.nl/',
+            src: 'partners/cover.svg',
+            alt: 'Study Association Cover logo'
+        }
+    ],
     partners: [
         {
             href: 'https://rug.nl/',
             src: 'partners/rug.svg',
             alt: 'University of Groningen logo'
-        },
-        {
-            href: 'https://svcover.nl/',
-            src: 'partners/cover.svg',
-            alt: 'Study Assosiation Cover logo'
         }
     ]
 };

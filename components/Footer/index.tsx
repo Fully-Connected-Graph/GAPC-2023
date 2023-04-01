@@ -42,7 +42,24 @@ const Footer = (): ReactElement => {
             </div>
             <div className="w-full max-w-2xl p-4 sm:p-0">
                 <h1 className="text-2xl font-light text-gray-800">
-                    Partners
+                    Organised by
+                </h1>
+                <div className='w-full flex flex-col justify-center gap-6 p-5 md:flex-row'>
+                    {
+                        config.organisers.map((company, index) => (
+                            <div className='p-2 md:h-14'>
+                                <CompanyLogo
+                                    key={index}
+                                    {...company}
+                                />
+                            </div>
+                        ))
+                    }
+                </div>
+            </div>
+            <div className="w-full max-w-2xl p-4 sm:p-0">
+                <h1 className="text-2xl font-light text-gray-800">
+                    Partner
                 </h1>
                 <div className='w-full flex flex-col justify-center gap-6 p-5 md:flex-row'>
                     {
