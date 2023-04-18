@@ -15,7 +15,7 @@ here.
 This contest is open to all students from a university within the Benelux region. Before registering, please read the rules of the contest and these can be found <a href="https://fully-connected-graph.github.io/GAPC-2023/rules/">
 here. </a> To participate, each team will need to bring their own laptop. 
 
-To solve the problems, you will be able to use Java, Python, C, C++ and Haskell. In the end, only the captain of the team needs to make the registration and it can be done <a href="https://fully-connected-graph.github.io/GAPC-2023/registration/">
+To solve the problems, you will be able to use Java, Python, C, C++ and Haskell. In the end, only the captain of the team needs to make the registration and it can be done <a href="https://fully-connected-graph.github.io/GAPC-2023/register/">
 here. </a>
 
 ## Remember how it was last year?
