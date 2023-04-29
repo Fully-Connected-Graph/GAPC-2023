@@ -69,6 +69,29 @@ There will be 1 or more people that will capture digital content (photo, video e
 * The problem set is the responsibility of the jury.
 * The jury must be contacted through a “Clarification Request”.
 
+## Judging system
+
+* As a judging system, we will be using DomJudge. After making a submission to the judging system, the possible messages that can be received per submission are:
+    * CORRECT The submission passed all tests: you solved this problem! Correct submissions do not incur penalty time.
+    * COMPILER-ERROR There was an error when compiling your program. Note that when compilation takes more than 30 seconds, it is aborted and this counts as a compilation error. Compilation errors do not incur penalty time.
+    * TIMELIMIT Your program took longer than the maximum allowed time for this problem. Therefore it has been aborted. This might indicate that your program hangs in a loop or that your solution is not efficient enough.
+    * RUN-ERROR There was an error during the execution of your program. This can have a lot of different causes like division by zero, incorrectly addressing memory (e.g. by indexing arrays out of bounds), trying to use more memory than the limit, etc. Also check that your program exits with exit code 0!
+    * NO-OUTPUT Your program did not generate any output. Check that you write to standard out.
+    * OUTPUT-LIMIT Your program generated more output than the allowed limit. The output was truncated and considered incorrect.
+    * WRONG-ANSWER The output of your program was incorrect. This can happen simply because your solution is not correct, but remember that your output must comply exactly with the specifications of the judges. 
+    * TOO-LATE Bummer, you submitted after the contest ended! Your submission is stored but will not be processed anymore.
+
+* A link to the documentation of the judging system is <a  href="https://www.domjudge.org/docs/team-manual.pdf" target="_blank">here </a>. As a side note, not all the aspects presented in the link apply to this contest.
+
+
+## Score and Leaderboard
+
+* The winner of the pool is decided by (in order):
+    * The team with most correctly solved problems (CORRECT).
+    * The team with the least total time. The total time is the sum of the time elapsed from the beginning of the contest to the submission of the accepted run plus 20 penalty minutes for every rejected run for that problem regardless of the submission time. There is no time consumed for a problem that is not solved.
+    * The team that first submitted its last accepted problem is ranked higher. In case a tie still remains, the team that first submitted its second-last accepted problem is ranked higher, and so on. In the event that this does not resolve the tie, the ranks will be determined by chance.
+
+
 ## Special Rules 
 * A team may be disqualified by the organisation or jury for any activity that jeopardises the contest, such as dislodging extension cords, unauthorised modification, unintended use of contest materials, using a forbidden function or library calls, or distracting behaviour.
 * The participants don’t have access to their phones or any other device besides the laptop that the team is using, during the contest.

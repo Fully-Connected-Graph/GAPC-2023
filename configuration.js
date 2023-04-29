@@ -35,7 +35,7 @@ const config = {
     partners: [
         {
             href: 'https://rug.nl/',
-            src: 'partners/rug.svg',
+            src: 'partners/rug.png',
             alt: 'University of Groningen logo'
         }
     ]

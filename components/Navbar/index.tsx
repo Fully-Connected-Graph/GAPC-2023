@@ -5,7 +5,7 @@ import PrepLink from '../utils/PrepLink';
 
 const Navbar = (): ReactElement => {
 
-    const links = ['Rules', 'Schedule', 'Location', 'Register']
+    const links = [ 'SL', 'Rules', 'Schedule', 'Location', 'Register']
 
     return (
         <nav className="flex flex-row px-8 py-4 max-sm:px-2">
