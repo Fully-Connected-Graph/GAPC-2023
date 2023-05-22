@@ -9,7 +9,7 @@ The contest is over. Thank you for participating!
 * <a href="/GAPC-2023/gapc-final/contest.pdf" target="_blank">GAPC problems</a>
 * <a href="/GAPC-2023/gapc-final/solutions.pdf" target="_blank">GAPC solutions</a>
 * [GAPC testdata and solutions](/GAPC-2023/gapc-final/gapc23.zip)
-* <a href="/GAPC-2023/gapc-final/Scoreboard_GAPC_2023.html" target="_blank">GAPC scoreboard</a>
+* <a href="/GAPC-2023/gapc-final/Scoreboard_GAPC_2023.pdf" target="_blank">GAPC scoreboard</a>
 
 ## About
 
