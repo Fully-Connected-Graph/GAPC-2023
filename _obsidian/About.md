@@ -2,6 +2,15 @@
 banner: /GAPC-2023/covers/contest.png
 ---
 
+## Welcome to the GAPC 2023 website!
+
+The contest is over. Thank you for participating!
+
+* <a href="/GAPC-2023/gapc-final/contest.pdf" target="_blank">GAPC problems</a>
+* <a href="/GAPC-2023/gapc-final/solutions.pdf" target="_blank">GAPC solutions</a>
+* [GAPC testdata and solutions](/GAPC-2023/gapc-final/gapc23.zip)
+* <a href="/GAPC-2023/gapc-final/Scoreboard_GAPC_2023.html" target="_blank">GAPC scoreboard</a>
+
 ## About
 
 The Groningen Algorithmic Programming Contest (GAPC) is a 4 hour competitive programming contest, where students from (but not limited to) University of Groningen form teams of 1 to 3 people. The target is to solve the most problems and win the champion's cup.

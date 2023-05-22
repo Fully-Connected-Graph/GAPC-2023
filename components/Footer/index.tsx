@@ -13,6 +13,7 @@ const Footer = (): ReactElement => {
                 <div className='w-full flex flex-col justify-center gap-6 p-5 md:flex-row'>
                     {
                         config.GoldSponsors.map((company, index) => (
+                            
                             <div className='p-2 md:h-24'>
                                 <CompanyLogo 
                                     key={index}
@@ -63,7 +64,7 @@ const Footer = (): ReactElement => {
                 </h1>
                 <div className='w-full flex flex-col justify-center gap-6 p-5 md:flex-row'>
                     <div className='block justify-center'>
-                    <p className='text-red-600 text-xl'>Computing Science @ Bernoulli Institute</p>
+                    <p className='text-red-600 text-xl font-semibold text-center'>Computing Science @ Bernoulli Institute</p>
                     {
                         config.partners.map((company, index) => (
                             <div className='p-2 md:h-14'>
